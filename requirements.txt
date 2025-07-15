@@ -1,0 +1,16 @@
+streamlit
+qdrant-client
+langchain
+langchain-community
+langchain-core
+langchain-openai==0.3.25
+langchain-qdrant
+beautifulsoup4
+pypdf
+PyMuPDF
+PyMuPDF4LLM
+selenium
+requests
+openai==1.91.0
+langchain-pymupdf4llm==0.4.1
+langchain-text-splitters==0.3.8

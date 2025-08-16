@@ -67,7 +67,7 @@ def get_final_answer(user_question: str, qdrant_url: str, qdrant_api_key: str, o
         # Define the prompt template
         system_prompt = textwrap.dedent("""
             You are a helpful AI assistant. Your task is to answer the user's question based ONLY on the provided context.
-            Do not use any external knowledge. After providing the answer, list all the source document URLs under a 'Files Referred:' heading.
+            Do not use any external knowledge.
             If the context does not contain the answer, state that you cannot answer based on the provided information.
         """)
         

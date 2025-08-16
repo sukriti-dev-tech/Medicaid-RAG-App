@@ -1,5 +1,5 @@
 import streamlit as st
-import rag_handler
+import rag_handler-langchain
 
 # Get secrets from Streamlit's secrets management
 # These will be set in the Streamlit Community Cloud dashboard

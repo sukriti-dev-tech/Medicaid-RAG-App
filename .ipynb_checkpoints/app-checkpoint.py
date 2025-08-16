@@ -36,11 +36,7 @@ if st.button("Get Answer"):
 st.markdown("---")
 st.markdown("""
 **Sample questions you can ask:**
-*   What are the responsibilities of home owners?
-*   What are the rules and regulations of the HOA?
-*   What do the documents say about decorations on the outside of the homes?
-*   What zone is Expedition street?
-*   Are sports courts allowed in Marlboro?
-*   How do I dispose of batteries?
-*   What are the recyling dates for Zone 4 in August?
+*   How is eligibility of QMB determined?
+*   Tell me about continued medicaid
+*   How to establish non-financial eligibility for QI program?
 """)

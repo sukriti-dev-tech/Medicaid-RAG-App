@@ -30,7 +30,7 @@ if submit_button:
     if question:
         with st.spinner("Searching documents and generating answer..."):
             # Pass the secrets to the handler function
-            answer = rag_handler.get_final_answer(
+            answer = rag_handler_langchain.get_final_answer(
                 question,
                 QDRANT_URL,
                 QDRANT_API_KEY,

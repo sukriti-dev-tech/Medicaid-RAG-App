@@ -16,9 +16,17 @@ Enter your Louisiana Medicaid policy question below. The system will search thro
 to find the most relevant information and generate an answer.
 """)
 
-question = st.text_input("Your Question:", placeholder="e.g., How are applications for medical assistance processed?")
+# Use a form to group the text input and button together
+with st.form(key="question_form"):
+    question = st.text_input(
+        "Your Question:", 
+        placeholder="e.g., How are applications for medical assistance processed?"
+    )
+    # The submit button for the form
+    submit_button = st.form_submit_button(label="Get Answer")
 
-if st.button("Get Answer"):
+# The logic is now executed only when the form's submit button is clicked
+if submit_button:
     if question:
         with st.spinner("Searching documents and generating answer..."):
             # Pass the secrets to the handler function
